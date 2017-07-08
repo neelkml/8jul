@@ -10,6 +10,10 @@ public class BoxPrinterTest {
 		System.out.println(value2); */
 		BoxPrinter<Car, Integer> value3 =new BoxPrinter<Car,Integer>(new Car("a","b","c"),new Integer(8));
 		System.out.println(value3);
+		BoxPrinter<Car, Integer> value4 =new BoxPrinter<>(new Car("a","b","c"),new Integer(7));
+		System.out.println(value4);
+
+		
 		
 	}
 	
